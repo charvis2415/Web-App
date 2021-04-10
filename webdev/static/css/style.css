@@ -1,0 +1,52 @@
+.packman {
+  width:450px;
+  height:420px;
+  box-sizing:border-box;
+  padding-right:150px;
+  border-radius:80%;
+transform:rotate(80deg);
+
+background:
+    linear-gradient(to left,blue, pink) top/100% 50%,
+    linear-gradient(to left,blue, pink) padding-box  ;
+  background-repeat:no-repeat;
+
+  opacity:0.5;
+
+
+}
+
+body {
+  background:white;
+  overflow-x:hidden;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+.container .btn {
+  position: absolute;
+
+  left: 95%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+
