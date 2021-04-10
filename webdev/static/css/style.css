@@ -19,6 +19,7 @@ background:
 body {
   background:white;
   overflow-x:hidden;
+  overflow-y:hidden;
 }
 
 
